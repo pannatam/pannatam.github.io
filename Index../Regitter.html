@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/regitter.css">
+</head>
+<body>
+    <div class="form-container">
+    <h2>ลงทะเบียน</h2>
+    <form action="#" method="post">
+        <div>
+            <label for="firstname">ชื่อ:</label><br>
+            <input type="text" id="firstname" name="firstname" placeholder="ชื่อ" required>
+        </div>
+        <br>
+        <div>
+            <label for="lastname">นามสกุล:</label><br>
+            <input type="text" id="lastname" name="lastname" placeholder="นามสกุล" required>
+        </div>
+        <br>
+        <div>
+            <label for="gender">เพศ:</label><br>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>เลือกเพศ</option>
+                <option value="male">ชาย</option>
+                <option value="female">หญิง</option>
+                <option value="other">อื่นๆ</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <br>
+        <div>
+            <label for="confirm_password">Confirm Password:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">ลงทะเบียน</button>
+        </div>
+    </form>
+    <a href="login.html" class="back-link">กลับไปหน้าเข้าสู่ระบบ</a>
+    </div>
+</body>
+</html>
